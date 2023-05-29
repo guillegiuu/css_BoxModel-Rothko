@@ -1,4 +1,30 @@
-html {
-  height: 100%;
-  width: 100%;
+/*CSS BOX-Model*/
+
+/*Cuadro*/
+.cuadro {
+  width: 500px;
+  height: 600px;
+  background-color: #4d0f00;
+}
+
+/*Marco*/
+.marco {
+  border: 50px solid black;
+  width: 500px;
+  /*(x)*/
+  padding: 50px;
+  /*padding*/
+  margin: 20px auto;
+  /*margin*/
+}
+
+/*Rectangulo_uno*/
+.uno {
+  width: 425px;
+  /*(x)*/
+  height: 150px;
+  /*(y)*/
+  background-color: #efb762;
+  margin: 20px auto;
+
 }
